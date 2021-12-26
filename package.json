@@ -1,0 +1,27 @@
+{
+  "name": "web-socket-chat-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vyper-v/web-socket-chat-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vyper-v/web-socket-chat-server/issues"
+  },
+  "homepage": "https://github.com/Vyper-v/web-socket-chat-server#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "socket.io": "^4.4.0"
+  }
+}
