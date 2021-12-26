@@ -6,8 +6,6 @@ const { Server } = require("socket.io");
 const io = new Server(server);
 const port = process.env.PORT || 3000;
 
-// Set static folder
-app.use(express.static("public"));
 
 
 // Run when client connects
